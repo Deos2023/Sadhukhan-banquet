@@ -1,9 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from 'next/image';
-import img1 from "../../public/img/1 (4).jpeg";
+import img1 from "../../public/img/1 (32).jpeg";
 import img2 from "../../public/img/1 (2).jpeg";
 import img3 from "../../public/img/1 (3).jpeg";
+import img4 from "../../public/img/1 (7).jpeg";
+import img5 from "../../public/img/1 (22).jpeg";
 import { FaLeaf, FaGlassCheers, FaConciergeBell, FaHeart } from "react-icons/fa";
 
 // Animation variants
@@ -115,7 +117,7 @@ const page = () => {
           <div className="max-w-6xl mx-auto text-center">
             <motion.h4 variants={item} className="text-sm tracking-widest uppercase mb-3 font-medium">Our Story</motion.h4>
             <motion.h2 variants={item} className="text-4xl md:text-5xl font-semibold leading-snug mb-8 text-[#b88c3b]">
-              Celebrating life's moments at Sadhukhan Banquet since 1980
+              Celebrating life&apos;s moments at Sadhukhan Banquet since 1980
             </motion.h2>
 
             <motion.p variants={item} className="max-w-3xl mx-auto text-sm text-gray-700 mb-10">
@@ -171,10 +173,10 @@ const page = () => {
             {/* Right Column */}
             <motion.div variants={item} className="space-y-4">
               <motion.div whileHover={{ scale: 1.03 }} className="overflow-hidden shadow-lg h-48 w-full">
-                <Image src={img1} alt="Banquet Hall" className="object-cover w-full h-full" />
+                <Image src={img4} alt="Banquet Hall" className="object-cover w-full h-full" />
               </motion.div>
               <motion.div whileHover={{ scale: 1.03 }} className="overflow-hidden shadow-lg h-48 w-full">
-                <Image src={img2} alt="Event Setup" className="object-cover w-full h-full" />
+                <Image src={img5} alt="Event Setup" className="object-cover w-full h-full" />
               </motion.div>
             </motion.div>
           </motion.div>

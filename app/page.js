@@ -120,7 +120,7 @@ export default function Home() {
 
             <div>
               <h1 className="text-neutral-600 max-w-lg text-start">
-                Belur's premier banquet hall serving Howrah since 1980, providing perfect venues for all celebrations.
+                Belur&apos;s premier banquet hall serving Howrah since 1980, providing perfect venues for all celebrations.
               </h1>
             </div>
 
@@ -158,7 +158,7 @@ export default function Home() {
             </motion.div>
             <motion.div variants={item} className="text-[#333] text-sm max-w-3xl mx-auto leading-relaxed">
               <p className="mb-4">
-                Sadhukhan Banquet has been a cornerstone of celebrations in Howrah since our establishment in 1980. Located at 81 Lala Babu Shire Road near Belur Math, we've been dedicated to creating unforgettable experiences for weddings, birthdays, receptions, anniversaries, and conferences.
+                Sadhukhan Banquet has been a cornerstone of celebrations in Howrah since our establishment in 1980. Located at 81 Lala Babu Shire Road near Belur Math, we&apos;ve been dedicated to creating unforgettable experiences for weddings, birthdays, receptions, anniversaries, and conferences.
               </p>
               <p>
                 Our venue features spacious banquet halls across two floors, available in both AC and non-AC options. With professional event services and customizable decor packages, we handle every detail so you can enjoy your special occasion.

@@ -97,7 +97,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden bg-neutral-800 bg-opacity-95 text-white py-4">
+          <div className="md:hidden bg-neutral-800 bg-opacity-95 text-white py-6 mt-5">
             <ul className="flex flex-col items-center gap-4">
               {renderNavLink("/", "Home", toggleMenu)}
               {renderNavLink("/aboutUs", "About Us", toggleMenu)}
